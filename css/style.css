@@ -122,29 +122,41 @@ h1{
 /* Browser button */
 
 /* Image text section */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .image-text {
-    width: 100%;
+    width: 65%;
     margin-top: 60px;
+    margin-left: 50px;
 }
 
 .box-aside{
-    width: 80%;
-    margin: 70px;
-    padding-right: 9rem;
+    width: 30%;
+    margin-right: 200px;
 }
 
-.center {
+.center2 {
     display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 9rem;
 }
 
-.center2{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color:rgb(211 211 211) ;
-    padding: 2rem;
+.image-text2 {
+    width: 100%;
+    margin-left: 100px;
 }
+
+.box-aside2{
+    width: 50%;
+    margin-left: 50px;
+}
+
+
 /* Image text section */
 
 /* Large box section */
