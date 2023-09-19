@@ -92,12 +92,23 @@ h1{
   font-size: 20px;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+/* Download button */
 .button1 {
    background-color: white;
    border-radius: 30px;
    padding: 7px 10px;
 }
+.download{
+    color: black;
+}
 
+/* Download button */
+/* Browser button */
 .button2 {
     background-color: black;
     border-radius: 30px;
@@ -105,42 +116,26 @@ h1{
     margin-left: 10px;
 }
 
-.buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
-
-.download{
-    color: black;
-}
-
 .browser{
     color: white;
 }
-/* Box inside home  */
+/* Browser button */
+
 /* Image text section */
 .image-text {
-    background-color: rgb(30 144 255);
-    border: 2px dashed black;
-    width: 45%;
-    padding: 9rem;
+    width: 100%;
+    margin-top: 60px;
 }
 
 .box-aside{
-    background-color:rgb(255 192 203) ;
-    border: 2px dashed black;
-    width: 25%;
-    padding: 9rem;
+    width: 80%;
+    margin: 70px;
+    padding-right: 9rem;
 }
 
 .center {
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
-
 
 .center2{
     display: flex;
@@ -151,6 +146,7 @@ h1{
     padding: 2rem;
 }
 /* Image text section */
+
 /* Large box section */
 .background-box {
     background-color:rgb(211 211 211) ;
