@@ -1,0 +1,173 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+body{
+   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* CONTAINER */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+/* HEADER */
+header {
+    height: 80px;
+    background-color: hsl(222.55deg 81.67% 52.94%)
+}
+/* HEADER */
+
+.flex-container {
+    display: flex;
+}
+
+/* Navigation Container */
+.nav-container {
+   margin-top: 20px;
+}
+/* Navigation Container */
+
+.nav-links li{
+   list-style: none;
+}
+
+/* Text inside nav bar */
+.text {
+    display: flex;
+    justify-content: space-between; 
+    margin: .5rem;
+}
+/* Text inside nav bar */
+
+/* MAIN */
+/* Home Background */
+.home {
+    background-image: url(../img/jumbo.png);
+    padding: 6rem 0;
+}
+/* Home Background */
+
+/* Box inside home  */
+.box-home{
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.description {
+  margin: 40px;
+  font-size: 20px;
+}
+
+/* Box inside home  */
+/* Image text section */
+.image-text {
+    background-color: rgb(30 144 255);
+    border: 2px dashed black;
+    width: 45%;
+    padding: 9rem;
+}
+
+.box-aside{
+    background-color:rgb(255 192 203) ;
+    border: 2px dashed black;
+    width: 25%;
+    padding: 9rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.center2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:rgb(211 211 211) ;
+    padding: 2rem;
+}
+/* Image text section */
+/* Large box section */
+.background-box {
+    background-color:rgb(211 211 211) ;
+    padding: 4rem;
+}
+
+.large-box{
+    background-color:rgb(34 139 34) ;
+    width: 80%;
+    padding: 15rem;
+    margin-left: 130px;
+}
+/* Large box section */
+
+/* FOOTER */
+footer {
+    /* Debug */
+    background-color: darkslategrey;
+}
+
+.main-column {
+    width: 30%;
+    /* Debug */
+    background-color: rgb(240 128 128);
+    min-height: 400px;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.menu-column {
+    width: 70%;
+    display: flex;
+    /* Debug */
+    background-color: rgb(32 178 170);
+    min-height: 400px;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.footer-menu {
+    width: calc(100% / 4);
+    /* Debug */
+    border: 1px dashed gray;
+    min-height: 400px;
+}
+
+.footer-bottom {
+   /* Debug */
+   border-top: 1px solid white;
+}
+
+.footer-bottom .container {
+    padding: 1rem 0;
+    /* Debug */
+    background-color: rgb(127 255 212);
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.row {
+    display: flex;
+}
+/* FOOTER */
+
+
