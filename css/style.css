@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 
-img{
-  max-width: 100%;
+img {
+    max-width: 100%;
 }
 
 body{
@@ -35,17 +35,37 @@ header {
 }
 /* Navigation Container */
 
-.nav-links li{
+.nav-links ul {
    list-style: none;
+   display: flex;
+   margin: 10px;
 }
 
+a {
+    margin: 25px;
+    color: white;
+}
+
+.login-color{
+    color: black;
+}
 /* Text inside nav bar */
 .text {
     display: flex;
-    justify-content: space-between; 
-    margin: .5rem;
+    justify-content: space-between;
+    align-items: center;
 }
 /* Text inside nav bar */
+
+/* Login button */
+.login {
+    background-color: white;
+    border-radius: 30px;
+    padding: 8px;
+    color: black;
+}
+/* Login button */
+
 
 /* MAIN */
 /* Home Background */
@@ -64,15 +84,40 @@ header {
 }
 
 h1{
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     font-size: 40px;
 }
 
 .description {
-  margin: 40px;
   font-size: 20px;
 }
 
+.button1 {
+   background-color: white;
+   border-radius: 30px;
+   padding: 7px 10px;
+}
+
+.button2 {
+    background-color: black;
+    border-radius: 30px;
+    padding: 7px 10px;
+    margin-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.download{
+    color: black;
+}
+
+.browser{
+    color: white;
+}
 /* Box inside home  */
 /* Image text section */
 .image-text {
