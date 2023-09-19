@@ -121,7 +121,7 @@ h1{
 }
 /* Browser button */
 
-/* Image text section */
+/* Image text section1 */
 .center {
     display: flex;
     justify-content: center;
@@ -129,20 +129,23 @@ h1{
 }
 
 .image-text {
-    width: 65%;
+    width: 70%;
     margin-top: 60px;
     margin-left: 50px;
+    padding: 3rem;
 }
 
 .box-aside{
     width: 30%;
     margin-right: 200px;
 }
+/* Image text section 1*/
 
+/* Image text section 2*/
 .center2 {
     display: flex;
     align-items: center;
-    background-color: gray;
+    background-color: hsl(0deg 0% 96.47%);
     padding: 9rem;
 }
 
@@ -155,21 +158,38 @@ h1{
     width: 50%;
     margin-left: 50px;
 }
-
-
-/* Image text section */
-
-/* Large box section */
-.background-box {
-    background-color:rgb(211 211 211) ;
+/* Image text section 2*/
+/* Image text section 3*/
+.image-text3 {
+    width: 80%;
+    margin-left: 100px;
     padding: 4rem;
 }
 
+.box-aside3{
+    width: 30%;
+    margin-right: 200px;
+}
+/* Image text section 3*/
+
+/* Large box section */
+.background-box {
+    background-color:hsl(0deg 0% 96.47%);
+    padding: 6rem;
+}
+
 .large-box{
-    background-color:rgb(34 139 34) ;
     width: 80%;
-    padding: 15rem;
-    margin-left: 130px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.button3 {
+    background-color: hsl(226.73deg 58.43% 65.1%);
+    border-radius: 40px;
+    width: 20%;
+    margin-left: 320px;
+    margin-top: 50px;
 }
 /* Large box section */
 
