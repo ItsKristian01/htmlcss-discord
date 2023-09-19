@@ -188,7 +188,7 @@ h1{
     background-color: hsl(226.73deg 58.43% 65.1%);
     border-radius: 40px;
     width: 20%;
-    margin-left: 320px;
+    margin: 0 auto;
     margin-top: 50px;
 }
 /* Large box section */
@@ -196,50 +196,61 @@ h1{
 /* FOOTER */
 footer {
     /* Debug */
-    background-color: darkslategrey;
+    background-color: hsl(205.71deg 9.09% 15.1%)
 }
 
+.flag {
+    width: 10%;
+}
+
+.ita {
+    color: white;
+}
+
+.talk{
+    color: hsl(226.29deg 58.66% 64.9%);
+    margin-top: 50px;
+}
+
+h3{
+    color: hsl(226.29deg 58.66% 64.9%);
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.info li{
+    color: white;
+    list-style: none;
+    margin: 15px;
+}
 .main-column {
     width: 30%;
-    /* Debug */
-    background-color: rgb(240 128 128);
-    min-height: 400px;
-    margin-top: .5rem;
-    margin-bottom: 2rem;
 }
 
 .menu-column {
     width: 70%;
     display: flex;
-    /* Debug */
-    background-color: rgb(32 178 170);
-    min-height: 400px;
-    margin-top: .5rem;
-    margin-bottom: 2rem;
 }
 
 .footer-menu {
     width: calc(100% / 4);
-    /* Debug */
-    border: 1px dashed gray;
-    min-height: 400px;
 }
 
 .footer-bottom {
-   /* Debug */
-   border-top: 1px solid white;
+  margin-top: 10px;
 }
 
 .footer-bottom .container {
     padding: 1rem 0;
-    /* Debug */
-    background-color: rgb(127 255 212);
-    margin-top: .5rem;
-    margin-bottom: 2rem;
 }
 
 .row {
     display: flex;
+}
+
+.button4 {
+    background-color: hsl(226.73deg 58.43% 65.1%);
+    border-radius: 40px;
 }
 /* FOOTER */
 
